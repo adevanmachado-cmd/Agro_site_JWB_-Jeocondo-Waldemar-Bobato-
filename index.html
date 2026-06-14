@@ -7,25 +7,34 @@
     <title>Projeto de Conscientização e Prevenção de Acidentes de Trabalho no Campo
 </title>
    <style>
+<!-- Código Completo: Copie e cole no seu HTML -->
 <style>
     .video-flutuante {
         position: fixed !important;
         bottom: 20px !important;
         right: 20px !important;
         z-index: 99999 !important;
-        transform: scale(0.6) !important;
-        transform-origin: bottom right !important;
+        width: 200px !important; /* Largura da miniatura */
+        height: 350px !important; /* Altura da miniatura */
+        box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+        border-radius: 8px;
+        overflow: hidden;
+    }
+    .video-flutuante iframe {
+        width: 100% !important;
+        height: 100% !important;
+        border: none !important;
     }
 </style>
 
 <div class="video-flutuante">
-    <blockquote class="tiktok-embed" cite="https://tiktok.com" data-video-id="7400489014123449605" style="max-width: 325px; min-width: 325px;"> 
-        <section>
-            <a target="_blank" title="@adevannascimentom" href="https://tiktok.com">@adevannascimentom</a>
-        </section> 
-    </blockquote> 
-    <script async src="https://tiktok.com"></script>
+    <iframe 
+        src="https://tiktok.com" 
+        allow="fullscreen; autoplay" 
+        allowfullscreen>
+    </iframe>
 </div>
+
 
         .texto-centralizado {
             text-align: center;
